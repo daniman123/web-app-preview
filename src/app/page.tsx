@@ -1,8 +1,3 @@
-export default function Home() {
-  return (
-    <div className="">
-      <main className=""></main>
-      <footer className=""></footer>
-    </div>
-  );
+export default function Page() {
+  return <h1 className="">Hello Next.js!</h1>;
 }
