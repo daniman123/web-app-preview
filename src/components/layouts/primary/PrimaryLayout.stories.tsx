@@ -5,7 +5,9 @@ import { mockPrimaryLayoutProps } from "./PrimaryLayout.mocks";
 
 const meta: Meta<typeof PrimaryLayout> = {
   component: PrimaryLayout,
-  
+  parameters: {
+    layout: "fullscreen",
+  },
 };
 
 export default meta;
