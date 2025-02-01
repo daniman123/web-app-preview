@@ -1,4 +1,4 @@
-import Page from "@/app/page";
+import Page from "@/app/(landing)/page";
 import React from "react";
 import { IPrimaryLayout } from "./PrimaryLayout";
 
