@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NavBarActionButtons from "../navbarActionButtons/NavBarActionButtons";
 
 export interface INavBar {
   sampleTextProp: string;
@@ -12,6 +13,9 @@ const NavBar: React.FC<INavBar> = ({ sampleTextProp }) => {
           <Link href="/" className="flex z-40 font-semibold">
             {sampleTextProp}
           </Link>
+          <NavBarActionButtons
+            navBarActionButtonsLabels={["Lorem", "Ipsum", "Dolor", "Sit"]}
+          />
         </div>
       </div>
     </nav>

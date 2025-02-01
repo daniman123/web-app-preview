@@ -14,7 +14,7 @@ const NavBarActionButtons: React.FC<INavBarActionButtons> = ({
   navBarActionButtonsLabels,
 }) => {
   return (
-    <div className="w-1/4 flex items-center justify-between">
+    <div className="flex items-center justify-between">
       {navBarActionButtonsLabels.map((val, i) => (
         <NavBarActionButtonWrapper key={i} label={val} />
       ))}
