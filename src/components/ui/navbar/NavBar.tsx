@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-interface INavBar {
+export interface INavBar {
   sampleTextProp: string;
 }
 
